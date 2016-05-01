@@ -4,7 +4,7 @@ html {
 
 #hero {
 	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat center;
-	background-size: contain;
+	background-size: contain 100% 100%;
 }
 
 h1{
