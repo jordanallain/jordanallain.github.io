@@ -1,6 +1,10 @@
+html {
+	min-height: 100%;
+}
+
 body {
 	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat center;
-	margin-top: 20px;
+
 }
 
 h1{
