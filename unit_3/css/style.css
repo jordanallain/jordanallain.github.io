@@ -1,5 +1,5 @@
 body {
-	background: "http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6";
+	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6");
 	min-height: 100%;
 	min-width: 1024px;
 
