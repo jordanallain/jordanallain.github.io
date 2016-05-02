@@ -5,7 +5,7 @@ h1, header p {
 
 header {
 	background: blue;
-	background: linear-gradient(blue, teal);
+	background: linear-gradient (blue, red);
 }
 
 img {
