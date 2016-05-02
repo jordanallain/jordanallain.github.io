@@ -26,20 +26,18 @@ footer {
 
 #container {
 	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #learning {
 	width: 400px;
 	float: left;
-	margin-right: auto;
-	margin-left: 25%;
 }
 
 #tolearn {
 	width: 400px;
 	float: right;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 #clear {
