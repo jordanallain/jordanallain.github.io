@@ -3,9 +3,12 @@ h1, header p {
 	color: #dddddd;
 }
 
+header {
+	background: blue;
+	background: linear-gradient(blue, teal);
+}
 
-
-header img {
+img {
 	margin-right: auto;
 	margin-left: auto;
 }
