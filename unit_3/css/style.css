@@ -11,7 +11,7 @@ header {
 img {
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
+	display: block;
 }
 
 h5 {
