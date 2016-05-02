@@ -13,6 +13,10 @@ h1, header p {
 	color: #222;
 }
 
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 img {
 	margin-right: auto;
 	margin-left: auto;
@@ -35,12 +39,9 @@ img {
 	padding: 5px;
 }
 
-/*footer {
-	text-align: right;
-	display: inline;
-	white-space: nowrap;
-	clear: both;
-}*/
+h3 {
+	text-transform: uppercase;
+}
 
 #container {
 	width: 800px;
