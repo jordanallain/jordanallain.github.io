@@ -3,6 +3,11 @@
 	padding 0;
 }
 
+#all {
+	width: 900px;
+	margin: 0 auto;
+}
+
 h1, header p {
 	text-align: center;
 	color: #222;
