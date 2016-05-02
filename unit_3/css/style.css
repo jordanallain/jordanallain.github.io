@@ -13,7 +13,7 @@ p {
 }
 
 #hero {
-	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat;
+	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat center;
 	background-height: 100%;
 	background-width: 100%;
 }
