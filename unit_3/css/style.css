@@ -9,8 +9,25 @@ img {
 	display: block;
 }
 
+#tagline {
+	text-align: center;
+}
+
 footer {
 	text-align: right;
 	display: inline-block;
 	white-space: nowrap;
+}
+
+#container {
+	width: 800px;
+}
+
+.learning {
+	width: 400px;
+	float: left;
+}
+
+#clear {
+	clear: both;
 }
