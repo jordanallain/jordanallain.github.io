@@ -1,18 +1,21 @@
-img {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+header {
+	height: 940px;
+	width: 518px;
+	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat center center;
 }
+
 
 h1, h1 p {
 	text-align: center;
 	color: #dddddd;
 }
 
-#hero {
-	background: url("http://www.openeducationchallenge.eu/sites/default/files/styles/limit_width_full/public/field/image/learn-code-from-home%20big.jpg?itok=P443dIx6") no-repeat center center;
-	height: 940px;
-	width: 518px;
+
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h5 {
