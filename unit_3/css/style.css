@@ -28,9 +28,14 @@ footer {
 	width: 800px;
 }
 
-.learning {
+#learning {
 	width: 400px;
 	float: left;
+}
+
+#tolearn {
+	width: 400px;
+	float: right;
 }
 
 #clear {
