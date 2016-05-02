@@ -31,11 +31,15 @@ footer {
 #learning {
 	width: 400px;
 	float: left;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #tolearn {
 	width: 400px;
 	float: right;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #clear {
