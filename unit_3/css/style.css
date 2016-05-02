@@ -4,8 +4,8 @@ h1, header p {
 }
 
 header {
-	background: blue;
-	background: linear-gradient (blue, red);
+	background: white;
+	background: linear-gradient (white, black);
 }
 
 img {
