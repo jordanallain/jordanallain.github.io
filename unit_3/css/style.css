@@ -5,6 +5,7 @@
 
 body {
 	color: #888;
+	background: linear-gradient(45 deg, yellow, orange 50%, red);
 }
 
 #all {
