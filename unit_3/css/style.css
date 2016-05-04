@@ -8,6 +8,10 @@ body {
 	background: rgba(0, 30, 240, .75);
 }
 
+header {
+	background: black;
+}
+
 #all {
 	width: 900px;
 	margin: 0 auto;
