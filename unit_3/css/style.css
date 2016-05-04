@@ -56,6 +56,10 @@ h3 {
 	display: inline-block;
 }
 
+#slogan {
+	font-style: italic;
+}
+
 #learning {
 	width: 400px;
 	float: left;
