@@ -142,6 +142,10 @@ h3 {
 	padding-left: 50px;
 }
 
+#difference p {
+	line-height: .5em;
+}
+
 #specialist {
 	border-radius: 50%;
 	border: solid white 3px;
