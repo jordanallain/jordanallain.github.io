@@ -19,6 +19,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
+	color: #007b0c;
 }
 
 #footer li a:visited, a:visited {
