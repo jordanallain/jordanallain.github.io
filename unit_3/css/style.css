@@ -52,8 +52,7 @@ header {
 }
 
 #container {
-/*		font-family: Montserrat, Helvetica, Arial, sans-serif;
-*/		padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 #lawn {
@@ -81,8 +80,10 @@ h1 {
 #slogan {
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	font-size: 20px;
-	font-style: italic;
+	/*font-style: italic;*/
 	padding-top: 80px;
+	font-weight: bolder;
+	letter-spacing: .2em;
 }
 
 #belowfold {
@@ -118,6 +119,7 @@ h3 {
 #services ul li, #cities ul li {
 	bottom-margin: 5em;
 	color: white;
+	line-height: 1.3em;
 	text-decoration: none;
 }
 
@@ -146,9 +148,16 @@ h3 {
 	line-height: 1.5;
 }
 
+.listhead {
+	border: solid white 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-bottom: 10px;
+}
+
 #specialist {
 	border-radius: 50%;
-	border: solid white 3px;
+	border: solid white 0px;
 	position: center;
 	float: left;
 	height: auto;
