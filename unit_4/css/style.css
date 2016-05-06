@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	border: 0;
+	padding 0;
+}
+
+nav {
+	height: 100px;
+	background: rgba(0,0,0,0.9);
+}
+
+nav ul li {
+	list-style: none;
+	color:#007b0c;
+	padding-top: 10px;
+	margin-left: -30px;
+	font-family: Pacifico;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+#footer li a:visited, a:visited {
+	color: #007b0c;
+}
+
+#footer li a:hover, a:hover {
+	color: white;
+	font-size:17px;
+}
+
+#footer li a:active, a:active {
+	color: #007B0C;
+}
+
+header {
+	background-image: url("http://14textures.com/wp-content/uploads/2015/06/Cali_Grass-2.jpg");
+	margin-top: -50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 750px;
+}
+
+#love {
+	border: solid 12px white;
+	border-left: 0px;
+	padding-right: 4px;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
+#container {
+	padding-bottom: 50px;
+}
+
+#lawn {
+	border: solid 8px white;
+	border-right: 0px;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
+h1, header p {
+	text-align: center;
+	color: #fff;
+}
+
+header p {
+	font-family: Montserrat;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 150px;
+	font-size: 75px;
+}
+
+#slogan {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	/*font-style: italic;*/
+	padding-top: 80px;
+	font-weight: bolder;
+	letter-spacing: .2em;
+}
+
+#belowfold {
+	background: black;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: white;
+	font-family: Montserrat, Helvetica, sans-serif;
+}
+
+#container {
+	width: 800px;
+	padding-left: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#cities {
+	width: 400px;
+	float: left;
+}
+
+#services ul, #cities ul {
+	list-style: none;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+#services ul li, #cities ul li {
+	bottom-margin: 5em;
+	color: white;
+	line-height: 1.3em;
+	text-decoration: none;
+}
+
+#services {
+	width: 400px;
+	float: right;
+}
+
+#clear {
+	clear: both;
+}
+
+#difference {
+	height: 360px;
+	color: white;
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 50px;
+	background: linear-gradient(45deg, #1b4c0d, #007B0C);
+	display: block;
+	background-size: cover;
+	padding-left: 50px;
+}
+
+#difference p {
+	line-height: 1.5;
+}
+
+.listhead {
+	border: solid white 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-bottom: 10px;
+}
+
+#specialist {
+	border-radius: 50%;
+	border: solid white 0px;
+	position: center;
+	float: left;
+	height: auto;
+	width: auto;
+	max-height: 300px;
+}
+
+#climate, #experts, #samples {
+	padding-top: 20px;
+	font-family: inherit;
+	font-style: italic;
+	text-align: center;
+}
+
+h2 {
+	display: inline;
+}
+
+#footer {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer li{
+	display: inline;
+	margin:0;
+	color: inherit;
+	padding: 5px;
+}
+
+#footer li a {
+	text-decoration: none;
+	color: #007B0C;
+	font-family: Pacifico;
+}
