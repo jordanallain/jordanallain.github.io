@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	border: 0;
-	padding 0;
+	padding: 0;
 }
 
 nav {
@@ -9,15 +9,11 @@ nav {
 	background: rgba(0,0,0,0.9);
 }
 
-nav ul li {
-	list-style: none;
+nav a {
 	color:#007b0c;
 	padding-top: 10px;
 	margin-left: -30px;
 	font-family: Pacifico;
-}
-
-nav ul li a {
 	text-decoration: none;
 	color: #007b0c;
 }
@@ -81,14 +77,13 @@ h1 {
 #slogan {
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	font-size: 20px;
-	/*font-style: italic;*/
 	padding-top: 80px;
 	font-weight: bolder;
 	letter-spacing: .2em;
 	word-spacing: .1em;
 }
 
-#belowfold {
+main {
 	background: black;
 }
 
