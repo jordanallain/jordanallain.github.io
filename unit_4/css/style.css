@@ -169,19 +169,12 @@ h3 {
 	text-align: center;
 }
 
-h2 {
-	display: inline;
-}
-
 #footer {
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 #footer li{
 	display: inline;
-	margin:0;
 	color: inherit;
 	padding: 5px;
 }
@@ -190,4 +183,8 @@ h2 {
 	text-decoration: none;
 	color: #007B0C;
 	font-family: Pacifico;
+}
+
+footer {
+	background-color: black;
 }
