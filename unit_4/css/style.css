@@ -1,39 +1,35 @@
 * {
-	margin: 0;
-	border: 0;
-	padding: 0;
+	margin: 0 auto;
+	border: 0 auto;
 }
 
 nav {
-	height: 100px;
-	background: rgb(0,0,0);
+	height: 35px;
+	background: rgba(0,0,0,.9);
+	padding: 5px 0 2px 8px;
 }
 
-nav a {
-	color:#007b0c;
-/*	padding-top: 10px;
-	margin-left: -30px;*/
+header nav a {
+	color: #007b0c;
 	font-family: Pacifico;
 	text-decoration: none;
+}
+
+#footer li a:visited, nav a:visited {
 	color: #007b0c;
 }
 
-#footer li a:visited, a:visited {
-	color: #007b0c;
-}
-
-#footer li a:hover, a:hover {
+#footer li a:hover, nav a:hover {
 	color: white;
-	font-size:17px;
+	font-size:16.5px;
 }
 
-#footer li a:active, a:active {
+#footer li a:active, nav a:active {
 	color: #007B0C;
 }
 
 header {
 	background-image: url("http://14textures.com/wp-content/uploads/2015/06/Cali_Grass-2.jpg");
-	margin-top: -50px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -106,18 +102,24 @@ h3 {
 	float: left;
 }
 
+.listhead {
+	border: solid white 2px;
+	padding: 0 4px;
+	margin-bottom: 10px;
+}
+
 #services ul, #cities ul {
 	list-style: none;
 	text-align: center;
-	text-decoration: underline;
 	padding-top: 50px;
 }
 
 #services ul li, #cities ul li {
+	padding-top: .5em;
 	bottom-margin: 5em;
 	color: white;
 	line-height: 1.3em;
-	text-decoration: none;
+	font-family: Cardo;
 }
 
 #services {
@@ -132,7 +134,7 @@ h3 {
 #difference {
 	height: 360px;
 	color: white;
-	font-family: Montserrat;
+	font-family: 'Montserrat';
 	text-align: center;
 	padding-top: 50px;
 	background: linear-gradient(45deg, #1b4c0d, #007B0C);
@@ -145,16 +147,8 @@ h3 {
 	line-height: 1.5;
 }
 
-.listhead {
-	border: solid white 2px;
-	padding-left: 4px;
-	padding-right: 4px;
-	margin-bottom: 10px;
-}
-
 #specialist {
 	border-radius: 50%;
-	border: solid white 0px;
 	position: center;
 	float: left;
 	height: auto;
@@ -162,7 +156,7 @@ h3 {
 	max-height: 300px;
 }
 
-#climate, #experts, #samples {
+.examples {
 	padding-top: 20px;
 	font-family: inherit;
 	font-style: italic;
@@ -171,12 +165,13 @@ h3 {
 
 #footer {
 	list-style: none;
+	margin-left: -35px;
 }
 
 #footer li{
 	display: inline;
 	color: inherit;
-	padding: 5px;
+	padding: 0 15px 0 0;
 }
 
 #footer li a {
@@ -187,4 +182,5 @@ h3 {
 
 footer {
 	background-color: black;
+	height: 35px;
 }
