@@ -3,6 +3,11 @@
 	border: 0 auto;
 }
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 nav {
 	height: 35px;
 	background: rgba(0,0,0,.9);
@@ -29,23 +34,11 @@ header nav a {
 }
 
 header {
-	background-image: url("http://14textures.com/wp-content/uploads/2015/06/Cali_Grass-2.jpg");
+	background-image: url("C:/Users/user/Desktop/jordanallain.github.io/unit_4/images/lawn.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 750px;
-}
-
-#love {
-	border: solid 12px white;
-	border-left: 0px;
-	padding-right: 4px;
-	font-weight: bold;
-	font-family: 'Montserrat';
-}
-
-#container {
-	padding-bottom: 50px;
 }
 
 #lawn {
@@ -55,13 +48,26 @@ header {
 	font-family: 'Montserrat';
 }
 
+#lover {
+	border: solid 12px white;
+	border-left: 0px;
+	padding-right: .09em;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
 h1, header p {
 	text-align: center;
 	color: #fff;
 }
 
-header p {
-	font-family: Montserrat;
+#slogan {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	padding-top: 3em;
+	font-weight: bolder;
+	letter-spacing: .2em;
+	word-spacing: .1em;
 }
 
 h1 {
@@ -70,48 +76,43 @@ h1 {
 	font-size: 75px;
 }
 
-#slogan {
-	font-family: Montserrat, Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	padding-top: 80px;
-	font-weight: bolder;
-	letter-spacing: .2em;
-	word-spacing: .1em;
+header p {
+	font-family: Montserrat;
 }
 
 main {
 	background: black;
 }
 
+#container {
+	padding-bottom: 50px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 25px;
+}
+
+#articles {
+	width: 800px;
+	margin: 0 auto;
+}
+
 h3 {
 	text-transform: uppercase;
 	color: white;
 	font-family: Montserrat, Helvetica, sans-serif;
-}
-
-#container {
-	width: 800px;
-	padding-left: 25%;
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
-}
-
-#cities {
-	width: 400px;
-	float: left;
+	text-align: center;
 }
 
 .listhead {
 	border: solid white 2px;
 	padding: 0 4px;
-	margin-bottom: 10px;
+	margin: 0 auto
 }
 
 #services ul, #cities ul {
 	list-style: none;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 #services ul li, #cities ul li {
@@ -127,8 +128,9 @@ h3 {
 	float: right;
 }
 
-#clear {
-	clear: both;
+#cities {
+	width: 400px;
+	float: left;
 }
 
 #difference {
@@ -138,7 +140,6 @@ h3 {
 	text-align: center;
 	padding-top: 50px;
 	background: linear-gradient(45deg, #1b4c0d, #007B0C);
-	display: block;
 	background-size: cover;
 	padding-left: 50px;
 }
@@ -157,7 +158,7 @@ h3 {
 }
 
 .examples {
-	padding-top: 20px;
+	padding-top: 2em;
 	font-family: inherit;
 	font-style: italic;
 	text-align: center;
@@ -170,7 +171,6 @@ h3 {
 
 #footer li{
 	display: inline;
-	color: inherit;
 	padding: 0 15px 0 0;
 }
 
