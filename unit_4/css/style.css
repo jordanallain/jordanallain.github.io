@@ -157,6 +157,13 @@ h3 {
 	max-height: 300px;
 }
 
+#examples {
+	height: 350px;
+	width: 600px;
+	float: right;
+	padding-right: 25em;
+}
+
 .examples {
 	padding-top: 2em;
 	font-family: inherit;
