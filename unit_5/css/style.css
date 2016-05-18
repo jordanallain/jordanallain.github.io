@@ -1,0 +1,193 @@
+* {
+	margin: 0 auto;
+	border: 0 auto;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+nav {
+	height: 35px;
+	background: rgba(0,0,0,.9);
+	padding: 5px 0 2px 8px;
+}
+
+header nav a {
+	color: #007b0c;
+	font-family: Pacifico;
+	text-decoration: none;
+}
+
+#footer li a:visited, nav a:visited {
+	color: #007b0c;
+}
+
+#footer li a:hover, nav a:hover {
+	color: white;
+	font-size:16.5px;
+}
+
+#footer li a:active, nav a:active {
+	color: #007B0C;
+}
+
+header {
+	background-image: url("C:/Users/user/Desktop/jordanallain.github.io/unit_4/images/lawn.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 750px;
+}
+
+#lawn {
+	border: solid 8px white;
+	border-right: 0px;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
+#lover {
+	border: solid 12px white;
+	border-left: 0px;
+	padding-right: .09em;
+	font-weight: bold;
+	font-family: 'Montserrat';
+}
+
+h1, header p {
+	text-align: center;
+	color: #fff;
+}
+
+#slogan {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	padding-top: 3em;
+	font-weight: bolder;
+	letter-spacing: .2em;
+	word-spacing: .1em;
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 150px;
+	font-size: 75px;
+}
+
+header p {
+	font-family: Montserrat;
+}
+
+main {
+	background: black;
+}
+
+#container {
+	padding-bottom: 50px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 25px;
+}
+
+#articles {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: white;
+	font-family: Montserrat, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.listhead {
+	border: solid white 2px;
+	padding: 0 4px;
+	margin: 0 auto
+}
+
+#services ul, #cities ul {
+	list-style: none;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#services ul li, #cities ul li {
+	padding-top: .5em;
+	bottom-margin: 5em;
+	color: white;
+	line-height: 1.3em;
+	font-family: Cardo;
+}
+
+#services {
+	width: 400px;
+	float: right;
+}
+
+#cities {
+	width: 400px;
+	float: left;
+}
+
+#difference {
+	height: 360px;
+	color: white;
+	font-family: 'Montserrat';
+	text-align: center;
+	padding-top: 50px;
+	background: linear-gradient(45deg, #1b4c0d, #007B0C);
+	background-size: cover;
+	padding-left: 50px;
+}
+
+#difference p {
+	line-height: 2em;
+}
+
+#specialist {
+	border-radius: 50%;
+	position: center;
+	float: left;
+	height: auto;
+	width: auto;
+	max-height: 300px;
+}
+
+#examples {
+	height: 350px;
+	width: 600px;
+	float: right;
+	padding-right: 25em;
+}
+
+.examples {
+	padding-top: 2em;
+	font-family: inherit;
+	font-style: italic;
+	text-align: center;
+}
+
+#footer {
+	list-style: none;
+	margin-left: -35px;
+}
+
+#footer li{
+	display: inline;
+	padding: 0 15px 0 0;
+}
+
+#footer li a {
+	text-decoration: none;
+	color: #007B0C;
+	font-family: Pacifico;
+}
+
+footer {
+	background-color: black;
+	height: 35px;
+}
