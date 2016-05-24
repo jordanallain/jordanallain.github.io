@@ -26,9 +26,9 @@ div, section {
 	background-color: #ffe2b8;
 	border: 1px solid black;
 	padding: 20px;
-}
+}/*
 
-/** {
+* {
 	margin: 0 auto;
 	border: 0 auto;
 }
