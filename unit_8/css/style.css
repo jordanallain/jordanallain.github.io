@@ -39,7 +39,7 @@ footer li a:active, nav a:active {
 }
 
 header {
-	background-image: url("images/lawn.jpg");
+	background-image: url("../images/lawn.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -223,5 +223,15 @@ footer {
 
 	#difference p {
 		font-size: .8em;
+	}
+
+	#difference div {
+		max-width: 90%;
+		float: none;
+		padding: 0;
+	}
+
+	#difference {
+		padding: 0;
 	}
 }
